@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="./dist/output.css" rel="stylesheet" />
+    <title>maxi fitness</title>
+    <link rel="icon" href="./src/img/fitness.png" type="image/x-icon">
+  </head>
+  <body>
+    <button class="scrool">
+      <i
+        class="fa-solid fa-caret-up flex items-center justify-center pt-[7px]"
+      ></i>
+    </button>
+    <header class="">
+      <div class="absolute left-0 bottom-0 w-[100%]">
+        <video
+          class="-z-10"
+          height="80vh"
+          src="./src/img/pexels-tima-miroshnichenko-5319759 (1440p).mp4"
+          autoplay
+          muted
+          loop
+        ></video>
+      </div>
+      <div id="header" class="max-h-[100vh]">
+        <div class="v"></div>
+
+        <div class="flex justify-between content-center flex-row p-5">
+          <div id="logo" class="cursor-pointer">
+            <h1 class="uppercase text-xl font-bold text-amber-400">
+              maxi <span class="text-red-600 text-2xl font-black">Fitnese</span>
+            </h1>
+          </div>
+          <div>
+            <nav>
+              <ul class="flex space-x-5 items-center" id="s">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact us</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="flex flex-col items-center text-center mt-64">
+          <div>
+            <h1 class="font-bold text-5xl uppercase text-white">
+              <span class="text-amber-400">global</span> fitness
+            </h1>
+            <p class="max-w-lg text-white font-medium mt-6">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+              eveniet, illum voluptatum consectetur atque impedit natus dolorem
+              eaque quia explicabo autem soluta repellat, fuga iste officiis rem
+              exercitationem, voluptate at.
+            </p>
+          </div>
+          <div>
+            <button
+              class="cursor-pointer p-4 border-solid border-2 rounded-full mt-10 border-red-600 text-white capitalize font-semibold ease-in duration-300 hover:bg-red-600"
+            >
+              <a href="#">get you program</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="min-h-[80vh] bg-zinc-800">
+      <div class="flex justify-around items-center">
+        <div
+          class="text-center flex flex-col justify-center mt-32 items-center mb-4"
+        >
+          <h3
+            class="text-xl md:text-2xl font-black uppercase text-center text-gray-100"
+          >
+            <span class="text-amber-500 aa">10</span>
+            years of <span class="text-blue-600">experience</span> in Fitness
+          </h3>
+          <p class="max-w-lg pt-4 font-semibold text-gray-300">
+            Over the past decade, I immersed myself in an inspiring journey
+            within the realm of fitness, cultivating a unique expertise spanning
+            10 years. This odyssey began with an intense passion and a strong
+            desire to enhance people's lives by improving their health and
+            physical well-being.
+          </p>
+          <p class="max-w-lg pt-4 font-semibold text-gray-300">
+            Throughout these years, I acquired a broad knowledge in various
+            facets of fitness, ranging from physical exercises to proper
+            nutrition and methods for enhancing mental and spiritual well-being.
+            I worked with diverse groups of individuals, each seeking to improve
+            their fitness and achieve their health goals.
+          </p>
+          <button
+            type="button"
+            class="p-4 bg-yellow-500 w-40 mt-6 rounded-xl ease-in duration-200 hover:bg-yellow-400 text-white hover:text-black hover:rounded-none"
+          >
+            <a href="#" class="font-bold capitalize text-lg">click here</a>
+          </button>
+        </div>
+
+        <div id="imgper" class="mt-32 immg show">
+          <img
+            class="rounded-2xl shadow-xl shadow-black"
+            src="./src/img/persson.jpg"
+            alt="persson"
+            width="500px"
+            height="500px"
+          />
+        </div>
+      </div>
+    </main>
+    <section class="plans min-h-[90vh] bg-[#292929]">
+      <div class="title text-center py-20">
+        <h2 class="uppercase font-bold text-orange-300 text-xs tracking-widest">
+          pricing table
+        </h2>
+        <h3 class="text-3xl text-white font-black capitalize">
+          membership plans
+        </h3>
+        <span id="lighn" class="lighn"></span>
+      </div>
+      <div
+        class="plans zone flex justify-center items-center align-middle space-x-7"
+      >
+        <div
+          id="cc3"
+          class="c3 text-center w-72 bg-transparent border-solid border-2 border-gray-900 p-7 h-80 relative text-zinc-200"
+        >
+          <h2 class="mb-7 font-black">
+            <span class="uppercase font-black text-2xl">$</span
+            ><span class="uppercase font-black text-4xl">8</span>/day
+          </h2>
+          <div class="capitalize font-light">
+            <h3
+              class="absolute w-[100%] left-0 bg-slate-950 py-2 text-white text-center font-black uppercase"
+            >
+              one day training
+            </h3>
+            <h4 class="pt-[4rem] pb-4">one time access</h4>
+            <span class="lign"></span>
+            <h4 class="pb-4">group trainer</h4>
+            <span class="lign"></span>
+            <h4 class="pb-4">book a group class</h4>
+            <span class="lign"></span>
+            <h4 class="">fitness orientation</h4>
+          </div>
+        </div>
+        <div
+          id="c"
+          class="c text-center w-72 bg-transparent border-solid border-2 border-x-orange-400 border-y-yellow-500 p-7 relative text-zinc-200"
+        >
+          <h2 class="mb-7 font-black">
+            <span class="uppercase font-black text-2xl">$</span
+            ><span class="uppercase font-black text-4xl">8</span>/day
+          </h2>
+          <div class="capitalize font-light">
+            <h3
+              class="absolute w-[100%] left-0 bg-gradient-to-r from-orange-600 to-yellow-500 py-2 text-white text-center font-black uppercase"
+            >
+              one day training
+            </h3>
+            <h4 class="pt-[4rem] pb-4">onetime acces</h4>
+            <span class="lign"></span>
+            <h4 class="pb-4">group traner</h4>
+            <span class="lign"></span>
+            <h4 class="pb-4">book a group class</h4>
+            <span class="lign"></span>
+            <h4 class="pb-4">fitness orientation</h4>
+            <a href="/" class="font-bold uppercase text-xs">sign up today</a>
+          </div>
+        </div>
+        <div
+          id="c2"
+          class="c2 text-center w-72 bg-transparent border-solid border-2 border-gray-900 p-7 h-80 relative text-zinc-200"
+        >
+          <h2 class="mb-7 font-black">
+            <span class="uppercase font-black text-2xl">$</span
+            ><span class="uppercase font-black text-4xl">8</span>/day
+          </h2>
+          <div class="capitalize font-light">
+            <h3
+              class="absolute w-[100%] left-0 bg-slate-950 py-2 text-white text-center font-black uppercase"
+            >
+              one day training
+            </h3>
+            <h4 class="pt-[4rem] pb-4">onetime acces</h4>
+            <span class="lign"></span>
+            <h4 class="pb-4">group traner</h4>
+            <span class="lign"></span>
+            <h4 class="pb-4">book a group class</h4>
+            <span class="lign"></span>
+            <h4 class="">fitness orientation</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="w-[100%] flex">
+        <div class="w-1/2 bg-gray-800 text-white text-center">
+          <div class="py-10">
+            <h2 class="text-center ml-[-158px] text-orange-400 capitalize">
+              advanced calculator
+            </h2>
+            <h2 class="font-black text-4xl uppercase">calculate your bmi</h2>
+          </div>
+          <div class="flex items-center flex-col">
+            <form
+              action="get "
+              class="grid grid-rows-2 grid-cols-2 w-[80%] items-center space-x-3 space-y-3"
+            >
+              <label for="" class="text-left mt-3 ml-3">your hight:</label>
+              <label for=""></label>
+
+              <input
+                type="number"
+                id="cntm"
+                class="ml-3 my-3 bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                value=""
+                placeholder="centimeter"
+              />
+              <input
+                type="number"
+                id="inche"
+                class="bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                value=""
+                placeholder="inches"
+              />
+
+              <label for="" class="text-left mt-3">your weight:</label>
+              <label for="" class="text-left mt-3">age:</label>
+
+              <input
+                type="number"
+                id="Weight"
+                class="mb-5 bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Weight"
+              />
+              <input
+                type="text"
+                id="age"
+                class="bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Age"
+              />
+              <label for="" class="text-left mt-4">gender:</label>
+              <label for=""></label>
+            </form>
+
+            <div class="flex pt-3 pl-3">
+              <div class="flex items-center me-4">
+                <input
+                  id="inline-radio"
+                  type="radio"
+                  value=""
+                  name="inline-radio-group"
+                  class="w-4 h-4 accent-orange-600 text-orange-600 bg-gray-100 border-gray-300"
+                />
+                <label
+                  for="inline-radio"
+                  class="ms-2 text-sm font-medium capitalize text-gray-900 dark:text-gray-300"
+                  >male</label
+                >
+              </div>
+              <div class="flex items-center me-4 ml-[-292px]">
+                <input
+                  id="inline-2-radio"
+                  type="radio"
+                  value=""
+                  name="inline-radio-group"
+                  class="w-4 h-4 accent-orange-600"
+                />
+                <label
+                  for="inline-2-radio"
+                  class="ms-2 text-sm font-medium capitalize text-gray-900 dark:text-gray-300"
+                  >female</label
+                >
+              </div>
+            </div>
+          </div>
+          <div class="flex items-start mt-[20px] ml-[90px]">
+            <button
+              id="btn"
+              onclick="my()"
+              class="uppercase font-bold p-3 bg-gradient-to-r from-orange-500 to-yellow-600 border-solid border-2 border-transparent"
+            >
+              calculate now
+            </button>
+            <span
+              id="res"
+              class="ml-4 p-3 font-black bg-white text-orange-500 border-solid border-2"
+              >14.4</span
+            >
+          </div>
+        </div>
+        <div class="w-1/2">
+          <img class="" src="./src/img/cal.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section id="call " class="call h-[44vh]">
+      <div class="flow flex flex-col text-center text-white pt-6 items-center">
+        <h1 class="text-orange-500 font-bold text-sm pt-4 tracking-widest">
+          call us today
+        </h1>
+        <h2 class="text-white text-xl font-bold uppercase tracking-widest pb-4">
+          +(212)600 000 000
+        </h2>
+        <h3 class="overflow-auto max-w-xs py-4 font-semibold">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim corporis
+          i
+        </h3>
+        <button
+          class="mt-2 p-3 bg-gradient-to-r from-orange-500 to-yellow-600 border-solid border-2 border-transparent"
+        >
+          actual schedule
+        </button>
+      </div>
+    </section>
+    <footer
+      class="h-[60vh] bg-gradient-to-b from-slate-600 via-gray-800 to-slate-900"
+    >
+      <div class="flex justify-evenly py-20 text-white">
+        <div class="flex flex-col items-center">
+          <div id="logo" class="pb-4">
+            <h1 class="uppercase text-xl font-bold text-amber-400">
+              maxi <span class="text-red-600 text-2xl font-black">Fitnese</span>
+            </h1>
+          </div>
+          <div id="about-my" class="py-4">
+            <p class="max-w-xs overflow-auto">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+              illum esse exercitationem tempora? At, natus similique ipsa harum
+              sunt a voluptas, reprehende
+            </p>
+          </div>
+          <div id="social" class="mt-4 cursor-pointer pt-4">
+            <a
+              class="m-2 py-2 border-solid border-2 border-gray-400 hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-300 hover:border-2"
+              href=""
+              ><i
+                class="fa-brands fa-facebook"
+                style="padding: 10px; color: black"
+              ></i
+            ></a>
+            <a
+              class="m-2 py-2 border-solid border-2 border-gray-400 hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-300 hover:border-2"
+              href=""
+              ><i
+                class="fa-brands fa-twitter"
+                style="padding: 10px; color: black"
+              ></i
+            ></a>
+            <a
+              class="m-2 py-2 border-solid border-2 border-gray-400 hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-300 hover:border-2"
+              href=""
+              ><i
+                class="fa-brands fa-youtube"
+                style="padding: 10px; color: black"
+              ></i
+            ></a>
+            <a
+              class="m-2 py-2 border-solid border-2 border-gray-400 hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-300 hover:border-2"
+              href=""
+              ><i
+                class="fa-brands fa-instagram"
+                style="padding: 10px; color: black"
+              ></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="flex flex-col">
+          <div id="title contact" class="pb-4">
+            <h1 class="uppercase font-black text-2xl">quick contact</h1>
+          </div>
+          <div id="information">
+            <h1 class="py-2">
+              <span class="pr-3"
+                ><i
+                  class="fa-solid fa-location-dot"
+                  style="color: orange"
+                ></i></span
+              >947 rue saad zaghloul hay erraha berrchid
+            </h1>
+            <h1 class="py-2">
+              <span class="pr-3"
+                ><i class="fa-solid fa-at" style="color: orange"></i
+              ></span>
+              wixgym@hwawi.site
+            </h1>
+            <h1 class="py-2">
+              <span class="pr-3"
+                ><i class="fa-solid fa-phone-volume" style="color: orange"></i
+              ></span>
+              +(212)666666666
+            </h1>
+            <h1 class="py-2">
+              <span class="pr-3"
+                ><i class="fa-brands fa-chrome" style="color: orange"></i></span
+              ><a href="">www.wixgyme.com</a>
+            </h1>
+          </div>
+        </div>
+
+        <div>
+          <div>
+            <h1 class="uppercase font-black text-2xl">popular tags</h1>
+          </div>
+          <div></div>
+        </div>
+      </div>
+    </footer>
+    <footer>
+      <div
+        class="flex items-center justify-center bg-gradient-to-r from-orange-400 to-orange-600"
+      >
+        <ul
+          class="flex space-x-10 items-center py-2 font-bold text-white text-lg"
+        >
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="flex justify-center items-center bg-slate-600 p-2">
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
+          >© 2023
+          <a href="" class="hover:underline">DAKIR AYMEN™</a>.
+          All Rights Reserved.
+        </span>
+      </div>
+    </footer>
+
+    <script src="./src/scroll.js"></script>
+  </body>
+</html>
